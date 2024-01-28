@@ -9,7 +9,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import sds from '/src/assets/images/project-images/sds-1.png';
-import dms from '/src/assets/images/project-images/dms-1.png';
+import dms from '/src/assets/images/project-images/DMS-1.png';
 import ifx from '/src/assets/images/project-images/ifx-1.png';
 import ifx01 from '/src/assets/images/project-images/ifx-01.png';
 import hatil1 from '/src/assets/images/project-images/hatil-1.png';
