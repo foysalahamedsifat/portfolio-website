@@ -7,6 +7,8 @@
 */
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from '/src/assets/images/Foysal_logo.png';
+import profile_image from '/src/assets/images/sifat.jpg';
 export default function Layout() {
     return (
       <>
@@ -14,7 +16,7 @@ export default function Layout() {
   <input type="checkbox" id="nav-check" />
   <div class="nav-header">
     <div class="nav-title">
-      <span><img src="/src/assets/images/Foysal_logo.png" height={33} /></span>
+      <span><img src={logo} height={33} /></span>
       Foysal Ahamed Sifat
     </div>
   </div>
@@ -37,7 +39,7 @@ export default function Layout() {
         <div class="w3-white w3-text-grey w3-card-4">
           <div class="w3-display-container">
           <div class="wrapper">
-            <img src="src/assets/images/sifat.jpg"  class="image--cover profile-img" alt="Foysal Ahamed Sifat"  />
+            <img src={profile_image}  class="image--cover profile-img" alt="Foysal Ahamed Sifat"  />
            </div>
             {/* <img src="src/assets/images/sifat.jpg" class="profileImageWidth" height={150}  /> */}
           </div>
