@@ -12,8 +12,8 @@ import sds from '/src/assets/images/project-images/sds-1.png';
 import dms from '/src/assets/images/project-images/DMS-1.png';
 import ifx from '/src/assets/images/project-images/ifx-1.png';
 import ifx01 from '/src/assets/images/project-images/ifx-01.png';
-import hatil1 from '/src/assets/images/project-images/hatil-1.png';
-import hatil2 from '/src/assets/images/project-images/hatil-2.png';
+import hatil1 from '/src/assets/images/project-images/Hatil-1.png';
+import hatil2 from '/src/assets/images/project-images/Hatil-2.png';
 import prime1 from '/src/assets/images/project-images/prime-1.png';
 import prime2 from '/src/assets/images/project-images/prime-2.png';
 
