@@ -8,6 +8,15 @@
 */
 import React from "react";
 import { Link } from "react-router-dom";
+import sds from '/src/assets/images/project-images/sds-1.png';
+import dms from '/src/assets/images/project-images/dms-1.png';
+import ifx from '/src/assets/images/project-images/ifx-1.png';
+import ifx01 from '/src/assets/images/project-images/ifx-01.png';
+import hatil1 from '/src/assets/images/project-images/hatil-1.png';
+import hatil2 from '/src/assets/images/project-images/hatil-2.png';
+import prime1 from '/src/assets/images/project-images/prime-1.png';
+import prime2 from '/src/assets/images/project-images/prime-2.png';
+
 export default function Project() {
   return (
     <>
@@ -19,7 +28,7 @@ export default function Project() {
           <h5 class="w3-opacity"><b>Sales and Distribution (Secondary Sales) for Square Toiletries Ltd | Square InformatiX Limited (Concern Of Square Group)</b></h5>
           <h6 class="w3-text-teal"><i class="fa fa-image fa-fw w3-margin-right"></i></h6>
           <div>
-              <img src="src/assets/images/project-images/sds-1.png" height={200} />
+              <img src={sds} height={200} />
 
             </div>
            <p>I had to start the project from scratch as a team leader and Full-Stack Developer. The requirement was to develop a custom ERP (Primary Sales, Secondary Sales, Inventory (Factory, Depot, Distributor), Distribution (Factory to Depot, Depot to Depot, Depot to Distributor). I had to collect the requirement, Completed the Sales, Inventory and Distribution module successfully and delivered.</p>
@@ -28,7 +37,7 @@ export default function Project() {
           <h6 class="w3-text-teal"><i class="fa fa-image fa-fw w3-margin-right"></i></h6>
 
           <div>
-              <img src="src/assets/images/project-images/DMS-1.png" height={200} />
+              <img src={dms} height={200} />
 
             </div>
           <p>I had to collect requirement and specify the requirement and create the SRS for the client and lead the development team. The project was pretty challenging as there has some challenge with document management (pdf document OCR, Crop, Merge, Text add, remove, rotation), Workflow Manager, Approval System, Document Share, Destroy document, Security etc. The project is successfully running in production for a reputed Group of Company in Bangladesh</p>
@@ -37,8 +46,8 @@ export default function Project() {
           <h6 class="w3-text-teal"><i class="fa fa-image fa-fw w3-margin-right"></i></h6>
 
 <div>
-    <img src="src/assets/images/project-images/ifx-01.png" class="w3-margin-right w3-margin-bottom" height={200} />
-    <img src="src/assets/images/project-images/ifx-1.png" height={200} />
+    <img src={ifx01} class="w3-margin-right w3-margin-bottom" height={200} />
+    <img src={ifx} height={200} />
 
   </div>
   <hr/>
@@ -47,8 +56,8 @@ export default function Project() {
           <h6 class="w3-text-teal"><i class="fa fa-image fa-fw w3-margin-right"></i></h6>
 
           <div>
-    <img src="src/assets/images/project-images/Hatil-1.png" class="w3-margin-right w3-margin-bottom" height={200} />
-    <img src="src/assets/images/project-images/Hatil-2.png" height={200} />
+    <img src={hatil1} class="w3-margin-right w3-margin-bottom" height={200} />
+    <img src={hatil2} height={200} />
 
   </div>
   <p>My responsibility was to develop software features according to the requirement. After six months, I got the opportunity to participate in system specification meetings, analyze user requirements and lead the development process. I have leaded CRM and lots of successful feature developments like Production planning, Product tracking System, Product Repair System, Deliveryman & Fitter-man Tracking, Customer Verification System, EMI Management System, Govt. Vat Software re-modification and development etc.</p><br/>
@@ -62,8 +71,8 @@ export default function Project() {
         <h5 class="w3-opacity"><b>Business Automation software | Primecorporation BD </b></h5>
           <h6 class="w3-text-teal"><i class="fa fa-image fa-fw w3-margin-right"></i></h6>
           <div>
-    <img src="src/assets/images/project-images/prime-1.png" class="w3-margin-right w3-margin-bottom" height={200} />
-    <img src="src/assets/images/project-images/prime-2.png" height={200} />
+    <img src={prime1} class="w3-margin-right w3-margin-bottom" height={200} />
+    <img src={prime2} height={200} />
 
   </div>
           <p>It was developed by me single handedly for Prime Corporation Ltd. It was a freelance project and has every possible feature to automate a bussiness like Prime Corpation Ltd. This project was developed earlier on my university days and still running successfully on the market</p><br/>
