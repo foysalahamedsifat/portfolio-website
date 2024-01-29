@@ -6,7 +6,7 @@
 */
 import React from "react";
 import { Link } from "react-router-dom";
-import cv from '/src/assets/CV/Foysal-Ahamed-Sifat-Full-Stack-ASP.NET-4.pdf';
+import cv from '/src/assets/cv/Foysal-Ahamed-Sifat-Full-Stack-ASP.NET-4.pdf';
 
 export default function About() {
     return (
