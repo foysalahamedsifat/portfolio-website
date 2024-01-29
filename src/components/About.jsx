@@ -6,6 +6,8 @@
 */
 import React from "react";
 import { Link } from "react-router-dom";
+import cv from '/src/assets/CV/Foysal-Ahamed-Sifat-Full-Stack-ASP.NET-4.pdf';
+
 export default function About() {
     return (
       <> 
@@ -17,7 +19,7 @@ export default function About() {
           
           <p>I am a Full-Stack Software Engineer (ASP.NET) having more than 4 years of work experience in Softwaer Industry and worked for some top international giant.
 I love to develop Enterprice Solutions and custom software solutions. I have expertise in ASP.NET and ASP.NET Core ( For Back-End), Angular, AngularJS and Jquery (For Front-End) and MSSQL, Oracle, MySQL for Database. I love to work on research based innovetive softare ideas and make them work as per customer need. For Machine Learning and data analytical solutions I use Python. I use GitLab or JIRA to follow the Agile development (Scrum) and solution's version.</p>
-          <Link class="w3-button w3-round-xxlarge w3-small w3-margin-right" style={{backgroundColor:'#485299',color:'white'}} to="/about"><i class="fa fa-file-text-o w3-margin-right"></i>Download Resume</Link>
+          <a class="w3-button w3-round-xxlarge w3-small w3-margin-right" style={{backgroundColor:'#485299',color:'white'}} href={cv} target="_blank"><i class="fa fa-file-text-o w3-margin-right"></i>Download Resume</a>
 
         </div>
         <hr/>
